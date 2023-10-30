@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.display{
+    background-color: lightgray;
+    height: 100px;
+    margin: 30px 25px 50px 25px;
+    border-radius: 5px;
+    border: inset  ;
+}
+.calc{
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(171, 203, 232);
+    border-radius: 25px;
+}
+.buttons{ 
+    margin: 0 25px;
+    flex: 1 1 0;
+}
+.row{
+    height: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 1 1 0;
+}
+.top-row,
+.bottom-row{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(245, 194, 118);
+    flex: 1 1 0;
+}

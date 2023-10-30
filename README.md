@@ -1,2 +1,2 @@
 # calculator
-ui calculator
+calculator with user interface
